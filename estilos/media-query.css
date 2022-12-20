@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* Versão Tablet */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    section {
+        display: inline-block;
+        margin: 200px;
+    }
+
+    div#foto {
+        position: absolute;
+        top: 13.5%;
+        left: 21.5%;
+        display: inline-block;
+        width: 30%;
+        height: 350px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    div#form {
+        position: absolute;
+        top: 100px;
+        left: 51%;
+        display: inline;
+        border-radius: 0px 10px 10px 0px;
+        height: 350px;
+    }
+}
