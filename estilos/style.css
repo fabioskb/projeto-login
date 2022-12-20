@@ -41,7 +41,7 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
-    background-color: white;
+    background-color: var(--noite);
     width: 280px;
     height: 500px;
     box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.623);
@@ -60,7 +60,7 @@ div#form {
     display: block;
     height: 300px;
     padding: 10px;
-    color: var(--noite);
+    color: white;
 }
 
 div#form h1 {
@@ -75,17 +75,13 @@ div#form .box {
 
 label>span#icon-user,
 span#icon-key {
-    color: white;
+    color: var(--tarde);
     margin-top: 11px;
     padding: 2px;
-    /* display: inline-block; */
-    /* border: 1px solid red; */
-    /* border: 1px solid white; */
-    /* margin-bottom: 15px; */
 }
 
-.box>input:active {
-    background-color: #f2a341;
+.box>input:placeholder-shown {
+    background-color: var(--dia);
     color: var(--amanhecer);
 }
 
@@ -115,7 +111,7 @@ span#icon-key {
 
 div#form > form>.button>input {
     background-color: var(--amanhecer);
-    color: white;
+    color: var(--tarde);
     font-weight: bold;
     font-size: 15px;
     text-align: center;
@@ -130,7 +126,7 @@ div#form > form>.button>input:hover {
 
 div#form > form a {
     display: block;
-    color: var(--noite);
+    color: var(--tarde);
     text-decoration: none;
     text-align: center;
     margin-top: 20px;
