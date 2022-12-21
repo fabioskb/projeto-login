@@ -20,15 +20,19 @@
                 <p>Insira seu login aqui para acessar seu ambiente de trabalho</p>
                 <form action="login.php" method="post">
                     <p class="box">
-                        <label for="iuser"><span class="material-symbols-outlined" id="icon-user">account_circle</span></label>
+                        <span class="material-symbols-outlined" id="icon-user">account_circle</span>
                         <input type="text" name="user" id="iuser" placeholder="Usuário ou Email" autocomplete="username" required>
+                        <label for="iuser">Login</label>
                     </p>
                     <p class="box">
-                        <label for="ipass"><span class="material-symbols-outlined" id="icon-key">vpn_key</span></label>
+                        <span class="material-symbols-outlined" id="icon-key">vpn_key</span>
                         <input type="password" name="pass" id="ipass" minlength="8" placeholder="Sua senha" autocomplete="current-password" required>
+                        <label for="ipass">Senha</label>
                     </p>
-                    <p class="button"><input type="submit" value="Enviar"></p>
-                    <p><a href="#">Esqueceu a senha?</a></p>
+                    <p class="button"><input type="submit" value="Entrar"></p>
+                    <p><a href="recuperar.html">
+                        Esqueceu a senha? <span class="material-symbols-outlined">mail</span>
+                    </a></p>
                 </form>
             </div>
         </section>
